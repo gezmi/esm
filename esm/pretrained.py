@@ -10,6 +10,8 @@ from pathlib import Path
 import torch
 import esm
 
+from esm.inverse_folding.gvp_transformer import GVPTransformerModel 
+
 
 def _has_regression_weights(model_name):
     """Return whether we expect / require regression weights;
